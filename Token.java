@@ -48,6 +48,8 @@ public class Token
 	int op;
 	
 	public static final String SYMBOLS = "0#ube+-+-*/";
+	public static final String UNARIES = "+-";
+	public static final String BINARIES = "+-*/";
 	
 	/**
 	 * Token constructor for a NUMBER Token
