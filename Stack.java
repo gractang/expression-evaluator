@@ -44,6 +44,16 @@ public class Stack
 	}
 	
 	/**
+	 * returns the topmost object without removing it
+	 * from the Stack
+	 * @return the topmost object, or null if Stack is empty
+	 */
+	public Object peek()
+	{
+		return top.getValue();
+	}
+	
+	/**
 	 * checks if the Stack is empty
 	 * @return true if empty false if not
 	 */
